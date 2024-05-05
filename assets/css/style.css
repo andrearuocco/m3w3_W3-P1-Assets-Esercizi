@@ -1,8 +1,8 @@
-.bg-green{
+.bg-green {
     background-color: #debd50;
 }
 
-.co-white{
+.co-white {
     color: white;
 }
 
@@ -10,21 +10,21 @@ button[type="button"] {
     border: none;
 }
 
-.flex{
+.flex {
     align-items: center;
 }
 
-.space{
+.space {
     margin-bottom: 2%;
 }
 
-h2{
+h2 {
     margin-bottom: 0;
     font-size: large;
     margin-top: 2%;
 }
 
-.circle{
+.circle {
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -32,30 +32,34 @@ h2{
     opacity: 0.3;
 }
 
-.icon{
+.icon {
     color: red;
     position: relative;
-    top:22%;
-    left:32%;
+    top: 22%;
+    left: 32%;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-    .mb-2, h2{
+
+    .mb-2,
+    h2 {
         font-size: 0.7rem;
-    } 
+    }
 }
 
 @media only screen and (min-width: 252px) and (max-width: 307px) {
-    body{
+    body {
         font-size: xx-small;
     }
-    .circle{
+
+    .circle {
         transform: scale(0.5);
     }
-    .icon{
+
+    .icon {
         transform: scale(2);
         position: relative;
-        top:35%;
-        left:37%;
+        top: 35%;
+        left: 37%;
     }
 }
